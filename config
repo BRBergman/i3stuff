@@ -184,3 +184,10 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id ~/.fehbg
+
+
+exec_always --no-startup-id #HOME/.config/polybar/launch.
+
+for_window [class "^.*"] border pixel 0
